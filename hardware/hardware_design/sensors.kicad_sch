@@ -2125,22 +2125,10 @@
 		(uuid "98edd31a-0e0c-4eb2-9927-55e95c9a32da")
 	)
 	(junction
-		(at 78.74 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b13eef99-6402-4d7c-b5e7-d204a141ef24")
-	)
-	(junction
 		(at 120.015 136.525)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd9bb209-9d00-4383-aec3-cc28b610d7d9")
-	)
-	(junction
-		(at 69.85 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d225097b-ed2a-45de-95fe-16eebec0e780")
 	)
 	(junction
 		(at 238.76 92.71)
@@ -2175,16 +2163,6 @@
 			(type default)
 		)
 		(uuid "003dba5c-0e59-4b47-8604-df032da2b219")
-	)
-	(wire
-		(pts
-			(xy 78.74 160.02) (xy 78.74 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f2b076-ff10-43a3-a725-11d530a3bad4")
 	)
 	(wire
 		(pts
@@ -2225,16 +2203,6 @@
 			(type default)
 		)
 		(uuid "13555177-a00a-4341-a9b4-3a657440fbe7")
-	)
-	(wire
-		(pts
-			(xy 69.85 160.02) (xy 78.74 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1810a995-21e8-415c-873c-bd7ff7deea0d")
 	)
 	(wire
 		(pts
@@ -2358,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 152.4) (xy 69.85 160.02)
+			(xy 69.85 148.59) (xy 69.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2518,6 +2486,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 157.48) (xy 69.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8717443f-45c0-4408-aa61-dc33daaf02a9")
+	)
+	(wire
+		(pts
+			(xy 56.515 136.525) (xy 57.785 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88247aa9-c760-472b-aead-b2d45faf4a2c")
+	)
+	(wire
+		(pts
 			(xy 232.41 74.93) (xy 238.76 74.93)
 		)
 		(stroke
@@ -2548,6 +2536,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 160.02) (xy 57.785 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915d75b0-3807-4c33-8076-e0498865f66e")
+	)
+	(wire
+		(pts
 			(xy 175.26 71.12) (xy 175.26 62.23)
 		)
 		(stroke
@@ -2558,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 69.85 139.065)
+			(xy 69.85 140.97) (xy 69.85 139.065)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 136.525) (xy 57.785 136.525)
+			(xy 47.625 136.525) (xy 48.895 136.525)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +3086,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 148.59 180)
+		(at 69.85 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3099,7 +3097,7 @@
 		(fields_autoplaced yes)
 		(uuid "3694fe8b-9170-4808-bcf6-e341dadb7665")
 		(property "Reference" "R30"
-			(at 72.39 147.3199 0)
+			(at 72.39 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3110,7 +3108,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 72.39 149.8599 0)
+			(at 72.39 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,7 +3119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 71.628 148.59 90)
+			(at 71.628 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 148.59 0)
+			(at 69.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3141,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 148.59 0)
+			(at 69.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,6 +3481,85 @@
 			(project "ESP32 IoT 4-layer PCB"
 				(path "/e6224326-a3f2-4f93-9736-980cb0b8e09e/379ef173-1d07-4055-8876-f4e521633af1/e1d26e0e-f6e0-4a69-be04-9682b536d32e"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.705 136.525 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "570fe333-80aa-42c1-9241-01a206f8be42")
+		(property "Reference" "C17"
+			(at 52.705 131.445 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 52.705 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 56.515 135.5598 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.705 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f6614b1-d815-4f28-ad73-d5c804fd80b0")
+		)
+		(pin "2"
+			(uuid "3d33478a-c128-4a4e-b463-25302172ffb9")
+		)
+		(instances
+			(project "ESP32 IoT 4-layer PCB"
+				(path "/e6224326-a3f2-4f93-9736-980cb0b8e09e/379ef173-1d07-4055-8876-f4e521633af1/e1d26e0e-f6e0-4a69-be04-9682b536d32e"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4597,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 165.735 0)
+		(at 57.785 164.465 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4531,7 +4608,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae4b6ca4-45c4-4845-9178-d0130b07548d")
 		(property "Reference" "#PWR041"
-			(at 78.74 172.085 0)
+			(at 57.785 170.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 170.18 0)
+			(at 57.785 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4552,7 +4629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 165.735 0)
+			(at 57.785 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 165.735 0)
+			(at 57.785 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 165.735 0)
+			(at 57.785 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,6 +4912,88 @@
 			(project "ESP32 IoT 4-layer PCB"
 				(path "/e6224326-a3f2-4f93-9736-980cb0b8e09e/379ef173-1d07-4055-8876-f4e521633af1/e1d26e0e-f6e0-4a69-be04-9682b536d32e"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd838412-9fbf-4c0f-9ec3-a90c502bcd96")
+		(property "Reference" "C19"
+			(at 73.66 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 73.66 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 70.8152 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cc468bc-6b87-45e5-9952-e746085a91b6")
+		)
+		(pin "2"
+			(uuid "53118d84-ab3e-4ba2-aaea-772394f7e47d")
+		)
+		(instances
+			(project "ESP32 IoT 4-layer PCB"
+				(path "/e6224326-a3f2-4f93-9736-980cb0b8e09e/379ef173-1d07-4055-8876-f4e521633af1/e1d26e0e-f6e0-4a69-be04-9682b536d32e"
+					(reference "C19")
 					(unit 1)
 				)
 			)

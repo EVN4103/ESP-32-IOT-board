@@ -7454,7 +7454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 261.9248 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10254,7 +10254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 274.0152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11155,7 +11155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 45.4152 78.105 0)
 			(hide yes)
 			(show_name no)

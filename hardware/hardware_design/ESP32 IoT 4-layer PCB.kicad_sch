@@ -128,7 +128,7 @@
 				)
 			)
 			(symbol "+5V_1_1_1"
-				(pin input line
+				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(name ""
@@ -6430,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 108.1532 125.222 0)
 			(hide yes)
 			(show_name no)
@@ -6512,7 +6512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 47.9552 123.825 0)
 			(hide yes)
 			(show_name no)
